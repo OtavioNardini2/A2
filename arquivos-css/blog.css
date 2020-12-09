@@ -1,0 +1,27 @@
+
+.citacao-bio {
+    background-color: #d9e5e3;
+    border: 0.5em solid #c2ccca;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 700px;
+    box-sizing: border-box;
+    position: relative;
+    transition: transform 1s linear, box-shadow 0.5s ease-in;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    text-align: center;
+}
+
+
+.citacao-bio:hover {
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 700px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+    transform: scale(1.2) rotate(-360deg);
+    animation-play-state: paused;
+    text-align: center;
+}
